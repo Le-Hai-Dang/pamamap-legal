@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Pamamap production logo</title>
+  <desc id="desc">Two people embracing a care rose heart inside a location pin.</desc>
+  <rect width="1024" height="1024" fill="#0F766E"/>
+
+  <!-- One mathematically smooth pin ring, kept inside the cross-platform safe area. -->
+  <path fill="#FFFFFF" fill-rule="evenodd" d="
+    M512 120
+    C310 120 205 280 205 460
+    C205 635 345 745 512 905
+    C679 745 819 635 819 460
+    C819 280 714 120 512 120 Z
+
+    M512 205
+    C650 205 734 315 734 460
+    C734 585 628 680 512 795
+    C396 680 290 585 290 460
+    C290 315 374 205 512 205 Z"/>
+
+  <!-- Two people. -->
+  <circle cx="400" cy="465" r="40" fill="#FFFFFF"/>
+  <circle cx="624" cy="465" r="40" fill="#FFFFFF"/>
+
+  <!--
+    Two mirrored figures form a clean embracing cradle. The inner curves keep a
+    deliberate teal clearance around the heart so the white/teal boundary stays
+    legible after app-icon downsampling.
+  -->
+  <path fill="#FFFFFF" d="
+    M400 518
+    C346 518 310 558 310 610
+    C310 680 374 728 474 770
+    C438 724 416 682 416 642
+    C416 608 438 586 468 586
+    C480 586 490 590 500 600
+    C486 550 454 518 400 518 Z"/>
+  <path fill="#FFFFFF" d="
+    M624 518
+    C678 518 714 558 714 610
+    C714 680 650 728 550 770
+    C586 724 608 682 608 642
+    C608 608 586 586 556 586
+    C544 586 534 590 524 600
+    C538 550 570 518 624 518 Z"/>
+
+  <!-- Single emotional accent. -->
+  <path fill="#BE3455" d="
+    M512 628
+    C488 600 448 610 448 650
+    C448 692 480 720 512 744
+    C544 720 576 692 576 650
+    C576 610 536 600 512 628 Z"/>
+</svg>
